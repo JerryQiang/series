@@ -1,6 +1,7 @@
 
 # （一）数字图像基础
 <br/>
+
 ## 数字图像及处理
 &emsp;&emsp;**数字图像**(Digital Image)定义为一个二维函数f(x, y)，其中(x, y)为平面坐标，f(x, y)为这一点的灰度值，坐标和灰度离散且有限，坐标系以图像的左上角为原点，如图1.1所示。
 $$
@@ -12,7 +13,7 @@ $$
 $$
 
 
-!["D"数字图像示意图](res/imgs/Article1_DigitalImageFoundation/D_digital_image_illustration.png)
+!["D"数字图像示意图](https://raw.githubusercontent.com/JerryQiang/series/master/data_image_processing/res/imgs/Article1_DigitalImageFoundation/D_digital_image_illustration.png)
 
 &emsp;&emsp;**数字图像处理**(Digital Image Processing)借助于数字计算机处理数字图像，一般输入是数字图像，输出是数字图像或者数字图像的特征。
 <br/>
@@ -33,7 +34,7 @@ pip install opencv-python==4.1.0.25
 
 ## 图像的加载、保存及显示
 
-![实验结果](res/imgs/Article1_DigitalImageFoundation/result.png)
+![实验结果](https://raw.githubusercontent.com/JerryQiang/series/master/data_image_processing/res/imgs/Article1_DigitalImageFoundation/result.png)
 
 完整代码如下所示：
 
@@ -76,6 +77,7 @@ cv.destroyAllWindows()
 - 矩阵乘积cv.dot等
 
 <br/>
+
 ## 图像色彩空间及分类
 最常见两个图像的色彩空间有RGB，HSV，其他色彩空间如HIS，YCrCb，YUV(常用于Android开发)。
 OpenCv提供了 `cv.cvtColor(img, flag)`，flag表示图像的转换
