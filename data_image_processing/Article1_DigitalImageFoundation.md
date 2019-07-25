@@ -1,3 +1,4 @@
+[TOC]
 
 # （一）数字图像基础
 <br/>
@@ -13,7 +14,7 @@ $$
 $$
 
 
-!["D"数字图像示意图](https://raw.githubusercontent.com/JerryQiang/series/master/data_image_processing/res/imgs/Article1_DigitalImageFoundation/D_digital_image_illustration.png)
+!["D"数字图像示意图](res/imgs/Article1_DigitalImageFoundation/D_digital_image_illustration.png)
 
 &emsp;&emsp;**数字图像处理**(Digital Image Processing)借助于数字计算机处理数字图像，一般输入是数字图像，输出是数字图像或者数字图像的特征。
 <br/>
@@ -34,7 +35,7 @@ pip install opencv-python==4.1.0.25
 
 ## 图像的加载、保存及显示
 
-![实验结果](https://raw.githubusercontent.com/JerryQiang/series/master/data_image_processing/res/imgs/Article1_DigitalImageFoundation/result.png)
+![实验结果](res/imgs/Article1_DigitalImageFoundation/result.png)
 
 完整代码如下所示：
 
@@ -87,6 +88,6 @@ OpenCv提供了 `cv.cvtColor(img, flag)`，flag表示图像的转换
 **灰度图像**：根据灰度级数，设置的图像像素值。例如8级灰度图像有0-255共256个值。`flag=cv.COLOR_BGR2GRAY`表示将BGR图像转换为灰度图像。
 
 **彩色图像**：在不同的颜色分量，设置不同的灰度值，一起叠加形成的效果图。一般为3个通道。
-在OpenCv中RGB色彩空间顺序为**BGR**，而在Matplot中RGB色彩空间顺序仍为RGB。`flag=cv.COLOR_BGR2HSV`表示将BGR图像转换为灰度图像。其他flag可以进行其他的色彩空间转换。
+在OpenCv中RGB色彩空间顺序为**BGR**，而在Matplotlib中RGB色彩空间顺序仍为RGB。`flag=cv.COLOR_BGR2HSV`表示将BGR图像转换为灰度图像。其他flag可以进行其他的色彩空间转换。
 
 
