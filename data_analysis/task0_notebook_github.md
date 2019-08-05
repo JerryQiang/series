@@ -46,5 +46,5 @@ jupyter notebook 支持代码，**markdown**，txt原生文件。
 
 # Github
 
-Github用来托管文档（学习笔记，博客）和代码。
+Github用来托管文档（学习笔记，博客）和代码。<br/>
 <a href="https://www.liaoxuefeng.com/wiki/896043488029600">Git教程 - 廖雪峰的官方网站</a>用于学习Git知识及相关指令。
